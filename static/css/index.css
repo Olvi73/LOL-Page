@@ -1,0 +1,177 @@
+html {background:#eaeaea;}
+html,body {height:100%;}
+dl,dt,dd,ol,ul,li {list-style:none;margin:0;padding:0;}
+#app {width:1080px;margin:15px auto 0;}
+#app:after {visibility:hidden;display:block;font-size:0;content:"";clear:both;height:0;}
+.content {float:left;width:1080px;background-color:#f9f9fa;border:solid 1px #e9eff4;border-right:none;box-sizing:border-box;}
+.filter {background-color:#fff;border-bottom:solid 1px #e9eff4;}
+.filter:after {visibility:hidden;display:block;font-size:0;content:"";clear:both;height:0;}
+.filter-type {float:left;margin-left:20px;}
+.filter-type-item {display:inline-block;}
+.filter-type-item a {display:block;padding:15px 7px;line-height:17px;font-size:14px;color:#777;text-decoration:none;border-bottom:2px solid transparent;}
+.active a {font-weight:bold;color:#4990e2;border-bottom-color:#4990e2;}
+.filter-reset{display: inline-block;cursor:pointer;padding: 0 16px;border: none;border-radius: 4px;line-height: 26px;font-size: 12px;letter-spacing: -0.5px;color: #fff;background: #5383e8;text-decoration: none;margin: 10px 20px;float: right;}
+.list {margin:10px 8px;font-size:0;}
+.list-item {position:relative;display:inline-block;margin-top:20px;margin-left:12px;width:84px;vertical-align:top;}
+.list-item a {display:block;position:relative;text-decoration:none;font-size:0;}
+.list-item-image {position:relative;width:82px;height:82px;border:2px solid #000;}
+.filter-search {float: left;margin: 7px 7px 7px 0;}
+.filter-search input {height: 36px;width: 193px;border: none;background: #f7f7f7;line-height: 15px;font-size: 12px;color: #9b9b9b;padding: 9px 0 10px 10px;box-sizing: border-box;}
+.sprite {display:inline-block;text-indent:-99999px;}
+.spc82 {background-image:url(../images/champion82.jpg);}
+.spc82-0 {background-position:0px 0px;width:82px;height:82px;}
+.spc82-1 {background-position:0px -82px;width:82px;height:82px;}
+.spc82-2 {background-position:0px -164px;width:82px;height:82px;}
+.spc82-3 {background-position:0px -246px;width:82px;height:82px;}
+.spc82-4 {background-position:0px -328px;width:82px;height:82px;}
+.spc82-5 {background-position:0px -410px;width:82px;height:82px;}
+.spc82-6 {background-position:0px -492px;width:82px;height:82px;}
+.spc82-7 {background-position:0px -574px;width:82px;height:82px;}
+.spc82-8 {background-position:0px -656px;width:82px;height:82px;}
+.spc82-9 {background-position:0px -738px;width:82px;height:82px;}
+.spc82-10 {background-position:0px -820px;width:82px;height:82px;}
+.spc82-11 {background-position:0px -902px;width:82px;height:82px;}
+.spc82-12 {background-position:0px -984px;width:82px;height:82px;}
+.spc82-13 {background-position:0px -1066px;width:82px;height:82px;}
+.spc82-14 {background-position:0px -1148px;width:82px;height:82px;}
+.spc82-15 {background-position:0px -1230px;width:82px;height:82px;}
+.spc82-16 {background-position:0px -1312px;width:82px;height:82px;}
+.spc82-17 {background-position:0px -1394px;width:82px;height:82px;}
+.spc82-18 {background-position:0px -1476px;width:82px;height:82px;}
+.spc82-19 {background-position:0px -1558px;width:82px;height:82px;}
+.spc82-20 {background-position:0px -1640px;width:82px;height:82px;}
+.spc82-21 {background-position:0px -1722px;width:82px;height:82px;}
+.spc82-22 {background-position:0px -1804px;width:82px;height:82px;}
+.spc82-23 {background-position:0px -1886px;width:82px;height:82px;}
+.spc82-24 {background-position:0px -1968px;width:82px;height:82px;}
+.spc82-25 {background-position:0px -2050px;width:82px;height:82px;}
+.spc82-26 {background-position:0px -2132px;width:82px;height:82px;}
+.spc82-27 {background-position:0px -2214px;width:82px;height:82px;}
+.spc82-28 {background-position:0px -2296px;width:82px;height:82px;}
+.spc82-29 {background-position:0px -2378px;width:82px;height:82px;}
+.spc82-30 {background-position:0px -2460px;width:82px;height:82px;}
+.spc82-31 {background-position:0px -2542px;width:82px;height:82px;}
+.spc82-32 {background-position:0px -2624px;width:82px;height:82px;}
+.spc82-33 {background-position:0px -2706px;width:82px;height:82px;}
+.spc82-34 {background-position:0px -2788px;width:82px;height:82px;}
+.spc82-35 {background-position:0px -2870px;width:82px;height:82px;}
+.spc82-36 {background-position:0px -2952px;width:82px;height:82px;}
+.spc82-37 {background-position:0px -3034px;width:82px;height:82px;}
+.spc82-38 {background-position:0px -3116px;width:82px;height:82px;}
+.spc82-39 {background-position:0px -3198px;width:82px;height:82px;}
+.spc82-40 {background-position:0px -3280px;width:82px;height:82px;}
+.spc82-41 {background-position:0px -3362px;width:82px;height:82px;}
+.spc82-42 {background-position:0px -3444px;width:82px;height:82px;}
+.spc82-43 {background-position:0px -3526px;width:82px;height:82px;}
+.spc82-44 {background-position:0px -3608px;width:82px;height:82px;}
+.spc82-45 {background-position:0px -3690px;width:82px;height:82px;}
+.spc82-46 {background-position:0px -3772px;width:82px;height:82px;}
+.spc82-47 {background-position:0px -3854px;width:82px;height:82px;}
+.spc82-48 {background-position:0px -3936px;width:82px;height:82px;}
+.spc82-49 {background-position:0px -4018px;width:82px;height:82px;}
+.spc82-50 {background-position:0px -4100px;width:82px;height:82px;}
+.spc82-51 {background-position:0px -4182px;width:82px;height:82px;}
+.spc82-52 {background-position:0px -4264px;width:82px;height:82px;}
+.spc82-53 {background-position:0px -4346px;width:82px;height:82px;}
+.spc82-54 {background-position:0px -4428px;width:82px;height:82px;}
+.spc82-55 {background-position:0px -4510px;width:82px;height:82px;}
+.spc82-56 {background-position:0px -4592px;width:82px;height:82px;}
+.spc82-57 {background-position:0px -4674px;width:82px;height:82px;}
+.spc82-58 {background-position:0px -4756px;width:82px;height:82px;}
+.spc82-59 {background-position:0px -4838px;width:82px;height:82px;}
+.spc82-60 {background-position:0px -4920px;width:82px;height:82px;}
+.spc82-61 {background-position:0px -5002px;width:82px;height:82px;}
+.spc82-62 {background-position:0px -5084px;width:82px;height:82px;}
+.spc82-63 {background-position:0px -5166px;width:82px;height:82px;}
+.spc82-64 {background-position:0px -5248px;width:82px;height:82px;}
+.spc82-65 {background-position:0px -5330px;width:82px;height:82px;}
+.spc82-66 {background-position:0px -5412px;width:82px;height:82px;}
+.spc82-67 {background-position:0px -5494px;width:82px;height:82px;}
+.spc82-68 {background-position:0px -5576px;width:82px;height:82px;}
+.spc82-69 {background-position:0px -5658px;width:82px;height:82px;}
+.spc82-70 {background-position:0px -5740px;width:82px;height:82px;}
+.spc82-71 {background-position:0px -5822px;width:82px;height:82px;}
+.spc82-72 {background-position:0px -5904px;width:82px;height:82px;}
+.spc82-73 {background-position:0px -5986px;width:82px;height:82px;}
+.spc82-74 {background-position:0px -6068px;width:82px;height:82px;}
+.spc82-75 {background-position:0px -6150px;width:82px;height:82px;}
+.spc82-76 {background-position:0px -6232px;width:82px;height:82px;}
+.spc82-77 {background-position:0px -6314px;width:82px;height:82px;}
+.spc82-78 {background-position:0px -6396px;width:82px;height:82px;}
+.spc82-79 {background-position:0px -6478px;width:82px;height:82px;}
+.spc82-80 {background-position:0px -6560px;width:82px;height:82px;}
+.spc82-81 {background-position:0px -6642px;width:82px;height:82px;}
+.spc82-82 {background-position:0px -6724px;width:82px;height:82px;}
+.spc82-83 {background-position:0px -6806px;width:82px;height:82px;}
+.spc82-84 {background-position:0px -6888px;width:82px;height:82px;}
+.spc82-85 {background-position:0px -6970px;width:82px;height:82px;}
+.spc82-86 {background-position:0px -7052px;width:82px;height:82px;}
+.spc82-87 {background-position:0px -7134px;width:82px;height:82px;}
+.spc82-88 {background-position:0px -7216px;width:82px;height:82px;}
+.spc82-89 {background-position:0px -7298px;width:82px;height:82px;}
+.spc82-90 {background-position:0px -7380px;width:82px;height:82px;}
+.spc82-91 {background-position:0px -7462px;width:82px;height:82px;}
+.spc82-92 {background-position:0px -7544px;width:82px;height:82px;}
+.spc82-93 {background-position:0px -7626px;width:82px;height:82px;}
+.spc82-94 {background-position:0px -7708px;width:82px;height:82px;}
+.spc82-95 {background-position:0px -7790px;width:82px;height:82px;}
+.spc82-96 {background-position:0px -7872px;width:82px;height:82px;}
+.spc82-97 {background-position:0px -7954px;width:82px;height:82px;}
+.spc82-98 {background-position:0px -8036px;width:82px;height:82px;}
+.spc82-99 {background-position:0px -8118px;width:82px;height:82px;}
+.spc82-100 {background-position:0px -8200px;width:82px;height:82px;}
+.spc82-101 {background-position:0px -8282px;width:82px;height:82px;}
+.spc82-102 {background-position:0px -8364px;width:82px;height:82px;}
+.spc82-103 {background-position:0px -8446px;width:82px;height:82px;}
+.spc82-104 {background-position:0px -8528px;width:82px;height:82px;}
+.spc82-105 {background-position:0px -8610px;width:82px;height:82px;}
+.spc82-106 {background-position:0px -8692px;width:82px;height:82px;}
+.spc82-107 {background-position:0px -8774px;width:82px;height:82px;}
+.spc82-108 {background-position:0px -8856px;width:82px;height:82px;}
+.spc82-109 {background-position:0px -8938px;width:82px;height:82px;}
+.spc82-110 {background-position:0px -9020px;width:82px;height:82px;}
+.spc82-111 {background-position:0px -9102px;width:82px;height:82px;}
+.spc82-112 {background-position:0px -9184px;width:82px;height:82px;}
+.spc82-113 {background-position:0px -9266px;width:82px;height:82px;}
+.spc82-114 {background-position:0px -9348px;width:82px;height:82px;}
+.spc82-115 {background-position:0px -9430px;width:82px;height:82px;}
+.spc82-116 {background-position:0px -9512px;width:82px;height:82px;}
+.spc82-117 {background-position:0px -9594px;width:82px;height:82px;}
+.spc82-118 {background-position:0px -9676px;width:82px;height:82px;}
+.spc82-119 {background-position:0px -9758px;width:82px;height:82px;}
+.spc82-120 {background-position:0px -9840px;width:82px;height:82px;}
+.spc82-121 {background-position:0px -9922px;width:82px;height:82px;}
+.spc82-122 {background-position:0px -10004px;width:82px;height:82px;}
+.spc82-123 {background-position:0px -10086px;width:82px;height:82px;}
+.spc82-124 {background-position:0px -10168px;width:82px;height:82px;}
+.spc82-125 {background-position:0px -10250px;width:82px;height:82px;}
+.spc82-126 {background-position:0px -10332px;width:82px;height:82px;}
+.spc82-127 {background-position:0px -10414px;width:82px;height:82px;}
+.spc82-128 {background-position:0px -10496px;width:82px;height:82px;}
+.spc82-129 {background-position:0px -10578px;width:82px;height:82px;}
+.spc82-130 {background-position:0px -10660px;width:82px;height:82px;}
+.spc82-131 {background-position:0px -10742px;width:82px;height:82px;}
+.spc82-132 {background-position:0px -10824px;width:82px;height:82px;}
+.spc82-133 {background-position:0px -10906px;width:82px;height:82px;}
+.spc82-134 {background-position:0px -10988px;width:82px;height:82px;}
+.spc82-135 {background-position:0px -11070px;width:82px;height:82px;}
+.spc82-136 {background-position:0px -11152px;width:82px;height:82px;}
+.spc82-137 {background-position:0px -11234px;width:82px;height:82px;}
+.spc82-138 {background-position:0px -11316px;width:82px;height:82px;}
+.spc82-139 {background-position:0px -11398px;width:82px;height:82px;}
+.spc82-140 {background-position:0px -11480px;width:82px;height:82px;}
+.spc82-141 {background-position:0px -11562px;width:82px;height:82px;}
+.spc82-142 {background-position:0px -11644px;width:82px;height:82px;}
+.spc82-143 {background-position:0px -11726px;width:82px;height:82px;}
+.spc82-144 {background-position:0px -11808px;width:82px;height:82px;}
+.spc82-145 {background-position:0px -11890px;width:82px;height:82px;}
+.spc82-146 {background-position:0px -11972px;width:82px;height:82px;}
+.spc82-147 {background-position:0px -12054px;width:82px;height:82px;}
+.spc82-148 {background-position:0px -12136px;width:82px;height:82px;}
+.spc82-149 {background-position:0px -12218px;width:82px;height:82px;}
+.spc82-150 {background-position:0px -12300px;width:82px;height:82px;}
+.spc82-151 {background-position:0px -12382px;width:82px;height:82px;}
+.spc82-152 {background-position:0px -12464px;width:82px;height:82px;}
+.spc82-153 {background-position:0px -12546px;width:82px;height:82px;}
+.list-item-name {margin-top:8px;line-height:15px;font-size:12px;text-align:left;color:#4a4a4a;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.list-item-true {position:absolute;left:0;top:0;margin-left:-5px;margin-top:-5px;}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+	<head>
+		<meta charset="utf-8">
+		<title>英雄联盟</title>
+		<link rel="stylesheet" href="static/css/index.css">
+		<link rel="shortcut icon" href="static/images/favicon.ico">
+	</head>
+	<body>
+		<div id="app">
+			<div class="content">
+				<div class="filter">
+					<ul class="filter-type">
+						<li class="filter-type-item active"><a href="javascript:;" class="type-all">全部</a></li>
+						<li class="filter-type-item"><a href="javascript:;" class="type-true">已完成</a></li>
+						<li class="filter-type-item"><a href="javascript:;" class="type-false">未完成</a></li>
+					</ul>
+					<div class="filter-search">
+                        <input class="filter-search-input" type="text" placeholder="搜索英雄,宁少输不错输">
+                    </div>
+					<button class="filter-reset">归零</button>
+				</div>
+				<div class="list">
+				</div>
+			</div>
+		</div>
+		<script src="static/js/index.js"></script>
+		<script type="text/javascript">
+			var lol = new LOL({
+				ele: '.list',
+				all: '.type-all',
+				true: '.type-true',
+				false: '.type-false',
+				reset: '.filter-reset',
+				search: '.filter-search-input',
+			});
+		</script>
+	</body>
+</html>

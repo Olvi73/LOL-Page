@@ -1,5 +1,3 @@
-﻿
-[CN]
 Aatrox=暗裔剑魔
 Ahri=九尾妖狐
 Akali=暗影之拳
@@ -154,4 +152,3 @@ Ziggs=爆破鬼才
 Zilean=时光守护者
 Zoe=暮光星灵
 Zyra=荆棘之兴
-

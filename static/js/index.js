@@ -510,7 +510,7 @@
 		},
 
 		resetStatus: function() {
-			var flag = confirm("是否重置？");
+			var flag = confirm("是否归零？");
 			if(flag == true) {
 				this.rmLStorage('LOLChampions')
 				window.location.reload()

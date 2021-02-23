@@ -10,8 +10,9 @@ from PIL import Image
  
  
 def pinjie():
+    path="./80/"
     # 获取当前文件夹中所有JPG图像
-    im_list = [Image.open(fn) for fn in listdir() if fn.endswith('.jpg')]
+    im_list = [Image.open(path+fn) for fn in listdir(path) if fn.endswith('.jpg')]
     # 图片转化为相同的尺寸
     ims = []
     for i in im_list:
